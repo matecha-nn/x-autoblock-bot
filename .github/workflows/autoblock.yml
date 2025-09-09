@@ -31,4 +31,4 @@ jobs:
         API_KEY_SECRET: ${{ secrets.API_KEY_SECRET }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-      run: python block_past_replies.py
+      run: python autoblock_daily.py
